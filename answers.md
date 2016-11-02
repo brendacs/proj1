@@ -26,4 +26,4 @@ It was fun and interesting. I learned a lot and got really familiar with the fra
 
 # Extra credit: Link your Heroku deployed app
 
-[https://pokeportal-go.herokuapp.com/]
+https://pokeportal-go.herokuapp.com/
