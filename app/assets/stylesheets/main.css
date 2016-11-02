@@ -1,0 +1,28 @@
+.container, .prof-container{
+	text-align: center;
+}
+
+.prof-container{
+	background-image: url('trainer-illustration.png');
+	background-size: 100%;
+	color:white;
+}
+
+.container h3, .prof-container h3{
+	padding-top: 10px;
+}
+
+.prof-container h3, .prof-container h4{
+	color:white;
+}
+
+.prof-container ul{
+	list-style-type: none;
+}
+
+.trainer-container{
+	padding-top: 10px;
+	background-image: url('pokeball-bg.png');
+	background-size: 50%;
+	width: 100%;
+}

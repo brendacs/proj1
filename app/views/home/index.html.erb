@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<% stylesheet_link_tag 'main' %>
+	</head>
+
+	<body>
+		<div class="container">
+			<h3>Welcome to PokePortal</h3>
+			<p><%= link_to 'Trainers:', trainers_path %> <%= Trainer.count %> registered</p>
+
+			<% if @pokemon and current_trainer %>
+			  <p> A wild <%= @pokemon.name %> has appeared!</p>
+			  <!-- REPLACE THIS LINE BELOW -->
+			  <%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>
+			<% end %>
+
+			<%= image_tag 'starter-pokemon.png' %>
+		</div>
+	</body>
+</html>

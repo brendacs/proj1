@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <% stylesheet_link_tag 'main' %>
+  </head>
+
+  <body>
+    <div class="trainer-container">
+      <div class="row">
+        <h3 style="color: white; font-weight: bold;">Trainers</h3>
+        <div class="column">
+          <table class="table">
+            <tbody>
+              <% @trainers.each do |trainer| %>
+                <tr>
+                  <%= render trainer %>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
